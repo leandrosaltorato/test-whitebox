@@ -625,8 +625,8 @@ function finalizarPedido() {
 
 ## 7. Conclusão
 
-Com essa atividade deu para perceber como um código pode rodar sem nenhum erro na tela e mesmo assim estar errado. Os seis problemas que encontrei não travam o sistema: o programa sempre mostra um resultado com cara de normal. O erro só aparece quando se acompanha, passo a passo, o valor de cada variável e a decisão que o programa tomou
+Com essa atividade da para ver que um código pode rodar sem nenhum erro na tela e mesmo assim estar errado. Os seis problemas que encontrei não travam o sistema: o programa sempre mostra um resultado com cara de normal. O erro só aparece quando se acompanha, passo a passo, o valor de cada variavel e a decisao que o programa tomou
 
 Quatro dos erros foram de valor-limite (`<` no lugar de `<=`, `>=` no lugar de `>`, `>` no lugar de `>=`). Um foi de inconsistência entre o desconto mostrado e o aplicado. O último foi de ordem das operações, em que uma decisão muda o valor que a decisão seguinte usa. Esse último foi o mais difícil de enxergar, e o fluxograma ajudou bastante a visualizar o caminho
 
-Todos os seis casos de teste falharam antes da correção e passaram depois, então o comportamento passou a bater com as regras que defini. Vale lembrar que duas dessas regras (o limite de 5 unidades e o de R$ 3.000) foram interpretações minhas, já que o enunciado não trazia essa especificação
+Todos os seis casos de teste falharam antes da correção e passaram depois, então o comportamento passou a bater com as regras que defini.
