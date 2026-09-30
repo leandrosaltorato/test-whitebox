@@ -629,4 +629,4 @@ Com essa atividade da para ver que um código pode rodar sem nenhum erro na tela
 
 Quatro dos erros foram de valor-limite (`<` no lugar de `<=`, `>=` no lugar de `>`, `>` no lugar de `>=`). Um foi de inconsistência entre o desconto mostrado e o aplicado. O último foi de ordem das operações, em que uma decisão muda o valor que a decisão seguinte usa. Esse último foi o mais difícil de enxergar, e o fluxograma ajudou bastante a visualizar o caminho
 
-Todos os seis casos de teste falharam antes da correção e passaram depois, então o comportamento passou a bater com as regras que defini.
+Todos os seis casos de teste falharam antes da correção e passaram depois, então o comportamento passou a bater com as regras que defini
